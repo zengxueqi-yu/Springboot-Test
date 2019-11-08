@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: com.july.test
+    profiles:
+        active: dev
+    main:
+        allow-bean-definition-overriding: true
+
+mybatis-plus:
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

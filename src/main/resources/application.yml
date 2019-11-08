@@ -1,0 +1,5 @@
+mybatis-plus:
+    type-aliases-package: com.july.**.entity
+    type-enums-package: com.july.**.entity.enums
+    configuration:
+        default-enum-type-handler: com.baomidou.mybatisplus.extension.handlers.MybatisEnumTypeHandler
